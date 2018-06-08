@@ -1,0 +1,44 @@
+@import 'bootstrap.css';
+
+html, body {
+    height: 100%;
+}
+
+.-light {
+    background: #e8e8e8 !important
+}
+
+/* Auth */
+#auth {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%)
+}
+
+/* User Data */
+.main {
+    text-align: center;
+    padding: 20px
+}
+
+.main .avatar {
+    width: auto;
+    border-radius: 50%
+}
+
+.main strong {
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 0 0
+}
+
+/* Friends */
+.user {
+    margin-bottom: 15px
+}
+
+.user .avatar {
+    width: 50px;
+    border-radius: 50%
+}
